@@ -55,7 +55,7 @@ class MyAPI
 	jump: chainable -> console.log "jumping!"
 	swim: chainable -> console.log "swimming!"
 ```
-Now you can chain your API:s to your hearts content. But wait, there's more! If you find yourself writing a method that you for some reason _dont_ want to chain, you simply don't write the `chainable` keyword in the method declaration: 
+Now you can chain your API:s to your heart's content. But wait, there's more! If you find yourself writing a method that you for some reason _don't_ want to chain, you simply don't write the `chainable` keyword in the method declaration: 
 ```CoffeeScript
 class MyAPI
 	run:  chainable -> console.log "running!"
