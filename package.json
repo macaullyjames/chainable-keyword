@@ -1,0 +1,29 @@
+{
+  "author": "Macaully James Muir",
+  "license": "Apache-2.0",
+  "name": "chainable-keyword",
+  "version": "1.0.0",
+  "description": "Coffeescript method chaining with a simple keyword.",
+  "keywords": [
+    "chain",
+    "method",
+    "chaining",
+    "coffeescript"
+  ],
+  "main": "chainable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "coffee --compile *.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macaullyjamesmuir/chainable-keyword.git"
+  },
+  "bugs": {
+    "url": "https://github.com/macaullyjamesmuir/chainable-keyword/issues"
+  },
+  "homepage": "https://github.com/macaullyjamesmuir/chainable-keyword#readme",
+  "devDependencies": {
+    "coffee-script": ">= 1.9.x"
+  }
+}
