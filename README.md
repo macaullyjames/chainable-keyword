@@ -1,3 +1,5 @@
+This REAME now contains ice cream: 🍨
+
 # chainable-keyword
 One word method chaining with CoffeeScript.
 
